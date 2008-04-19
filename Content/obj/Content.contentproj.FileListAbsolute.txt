@@ -1,0 +1,2 @@
+D:\Dev\game\bhs-proto\bhs-proto\bhs-proto\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dev\game\bhs-proto\bhs-proto\Content\obj\x86\Debug\ResolveAssemblyReference.cache
