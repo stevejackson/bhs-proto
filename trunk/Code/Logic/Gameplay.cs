@@ -22,7 +22,8 @@ namespace BHS.Logic
     {
         #region Game content
 
-        Sprite bh; //black hole        
+        BlackHole bh;
+        Emitter astEmit;
 
         #endregion
 
@@ -37,10 +38,15 @@ namespace BHS.Logic
             base.LoadContent();
 
             /* load stuff here */
-            bh = new Sprite();
-            bh.Initialize(new Vector2(200, 200), "Circle", 100f);
-            bh.LoadContent(this.content, @"Content\Graphics\Objects\black_hole");
-            bh.Origin = new Vector2(bh.Size.X / 2, bh.Size.Y / 2);
+            bh = new BlackHole();
+            bh.Initialize(new Vector2(200, 200));
+            bh.LoadContent(this.content);
+            
+            astEmit = new Emitter();
+            astEmit.Initialize(new Vector2(800, 600), ObjectType.Asteroid, 2f, 10f);
+            astEmit.LoadContent(this.content);
+
+            //Grid.Initialize(400, new Vector2(2000, 2000), 2);
         }
 
         public override void UnloadContent()
@@ -48,6 +54,7 @@ namespace BHS.Logic
             base.UnloadContent();
 
             bh.UnloadContent();
+            astEmit.UnloadContent();
 
             content.Unload();
         }
@@ -57,6 +64,11 @@ namespace BHS.Logic
             base.Update(gameTime, otherScreenHasFocus, false);
 
             /* code here */
+            Camera.Follow(bh.sprite);
+
+            astEmit.Update(bh);
+
+            /* attract all objects towards bh */
 
             Farseer.Physics.Update((float)gameTime.ElapsedGameTime.TotalSeconds);
         }
@@ -78,15 +90,15 @@ namespace BHS.Logic
             /* game input */
             if (Director.Rat.LState == Rat.State.Down)
             {
-                Vector2 diff = Director.Rat.Position - bh.Position;
+                Vector2 diff = Director.Rat.Position - bh.sprite.Position;
                 float power = 100f;
                 diff.Normalize();
                 diff *= power;
-                bh.physicsBody.LinearVelocity = diff;
+                bh.sprite.physicsBody.LinearVelocity = diff;
             }
             else
             {
-                bh.physicsBody.LinearVelocity = new Vector2(0, 0);
+                bh.sprite.physicsBody.LinearVelocity = new Vector2(0, 0);
             }
 
         }
