@@ -172,6 +172,15 @@
       <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Fonts\jbrush.xnb</Output>
       <Time>2008-04-17T20:11:57.515625-04:00</Time>
     </Item>
+    <Item>
+      <Source>Graphics\Objects\Emitter.PNG</Source>
+      <Name>Graphics\Objects\Emitter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Objects\Emitter.xnb</Output>
+      <Time>2008-04-25T18:34:48.25-04:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
