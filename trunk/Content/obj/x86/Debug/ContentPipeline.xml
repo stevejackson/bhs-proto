@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\bgCell.xnb</Output>
-      <Time>2008-04-19T04:51:34.96875-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\bgCell.xnb</Output>
+      <Time>2008-04-21T18:03:43.859375-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Cursor.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Cursor.xnb</Output>
-      <Time>2008-04-19T04:51:34.96875-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Cursor.xnb</Output>
+      <Time>2008-04-21T18:03:43.8125-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Objects\Asteroid.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Objects\Asteroid.xnb</Output>
-      <Time>2008-04-19T04:43:58.21875-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Objects\Asteroid.xnb</Output>
+      <Time>2008-04-23T20:54:47.640625-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Menu\starfield.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\starfield.xnb</Output>
-      <Time>2008-04-19T04:43:54.46875-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\starfield.xnb</Output>
+      <Time>2008-04-21T18:03:42.859375-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Global\blank.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Global\blank.xnb</Output>
-      <Time>2008-04-17T19:54:15.40625-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Global\blank.xnb</Output>
+      <Time>2008-04-21T18:03:26.53125-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Menu\Buttons\back_d.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\back_d.xnb</Output>
-      <Time>2008-04-17T19:54:17.8125-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\back_d.xnb</Output>
+      <Time>2008-04-21T18:03:42.40625-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Menu\Buttons\back_h.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\back_h.xnb</Output>
-      <Time>2008-04-17T19:54:17.859375-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\back_h.xnb</Output>
+      <Time>2008-04-21T18:03:42.5625-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Menu\Buttons\back_i.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\back_i.xnb</Output>
-      <Time>2008-04-17T19:54:17.859375-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\back_i.xnb</Output>
+      <Time>2008-04-21T18:03:42.609375-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Menu\Buttons\credits_d.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\credits_d.xnb</Output>
-      <Time>2008-04-17T19:54:17.765625-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\credits_d.xnb</Output>
+      <Time>2008-04-21T18:03:42.3125-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Menu\Buttons\credits_h.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\credits_h.xnb</Output>
-      <Time>2008-04-17T19:54:17.84375-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\credits_h.xnb</Output>
+      <Time>2008-04-21T18:03:42.484375-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Menu\Buttons\credits_i.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\credits_i.xnb</Output>
-      <Time>2008-04-17T19:54:17.84375-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\credits_i.xnb</Output>
+      <Time>2008-04-21T18:03:42.515625-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Menu\Buttons\endmode_d.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\endmode_d.xnb</Output>
-      <Time>2008-04-17T19:54:17.75-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\endmode_d.xnb</Output>
+      <Time>2008-04-21T18:03:42.296875-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Menu\Buttons\endmode_h.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\endmode_h.xnb</Output>
-      <Time>2008-04-17T19:54:17.796875-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\endmode_h.xnb</Output>
+      <Time>2008-04-21T18:03:42.375-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Menu\Buttons\endmode_i.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\endmode_i.xnb</Output>
-      <Time>2008-04-17T19:54:17.8125-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\endmode_i.xnb</Output>
+      <Time>2008-04-21T18:03:42.421875-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Menu\Buttons\exit_d.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\exit_d.xnb</Output>
-      <Time>2008-04-17T19:54:17.75-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\exit_d.xnb</Output>
+      <Time>2008-04-21T18:03:41.53125-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Menu\Buttons\exit_h.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\exit_h.xnb</Output>
-      <Time>2008-04-17T19:54:17.78125-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\exit_h.xnb</Output>
+      <Time>2008-04-21T18:03:42.34375-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Menu\Buttons\exit_i.png</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\exit_i.xnb</Output>
-      <Time>2008-04-17T19:54:17.78125-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Menu\Buttons\exit_i.xnb</Output>
+      <Time>2008-04-21T18:03:42.359375-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Objects\black_hole.PNG</Source>
@@ -160,17 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Objects\black_hole.xnb</Output>
-      <Time>2008-04-19T05:37:12.15625-04:00</Time>
-    </Item>
-    <Item>
-      <Source>Graphics\Fonts\jbrush.spritefont</Source>
-      <Name>Graphics\Fonts\jbrush</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Fonts\jbrush.xnb</Output>
-      <Time>2008-04-17T20:11:57.515625-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Objects\black_hole.xnb</Output>
+      <Time>2008-04-21T18:03:43.421875-07:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Objects\Emitter.PNG</Source>
@@ -178,38 +169,56 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Objects\Emitter.xnb</Output>
-      <Time>2008-04-25T18:34:48.25-04:00</Time>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Objects\Emitter.xnb</Output>
+      <Time>2008-04-25T22:12:00.203125-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Graphics\Fonts\jbrush.spritefont</Source>
+      <Name>Graphics\Fonts\jbrush</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\Fonts\jbrush.xnb</Output>
+      <Time>2008-04-21T18:03:43.71875-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Graphics\border.jpg</Source>
+      <Name>Graphics\border</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\Graphics\border.xnb</Output>
+      <Time>2008-04-23T21:37:06.640625-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <BuildConfiguration>Debug</BuildConfiguration>
-      <RootDirectory>D:\Dev\game\bhs-proto\bhs-proto\Content\</RootDirectory>
-      <LoggerRootDirectory>D:\Dev\game\bhs-proto\bhs-proto\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\Dev\game\bhs-proto\bhs-proto\Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\Dev\game\bhs-proto\bhs-proto\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Documents and Settings\Vedran\My Documents\Visual Studio 2005\Projects\GameDev\bhs-proto\bhs-proto\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>c:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2007-11-28T12:08:00-05:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2007-11-28T13:08:00-08:00</Value>
       </Assembly>
       <Assembly>
-        <Key>c:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2007-11-28T12:08:42-05:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2007-11-28T13:08:42-08:00</Value>
       </Assembly>
       <Assembly>
-        <Key>c:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2007-11-28T12:08:30-05:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2007-11-28T13:08:30-08:00</Value>
       </Assembly>
       <Assembly>
-        <Key>c:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2007-11-28T12:07:44-05:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2007-11-28T13:07:44-08:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\WINDOWS\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\2.0.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2008-04-17T05:08:07.765625-04:00</Value>
+        <Value>2008-01-05T15:59:44.125-08:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
