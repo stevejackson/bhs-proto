@@ -15,6 +15,7 @@ using Microsoft.Xna.Framework.Storage;
 using F2D.Core;
 using F2D.Input;
 using F2D.Graphics;
+using F2D.Math;
 
 namespace BHS.Logic
 {
@@ -24,6 +25,7 @@ namespace BHS.Logic
 
         BlackHole bh;
         Emitter astEmit;
+        List<Sprite> borders = new List<Sprite>();
 
         #endregion
 
@@ -37,16 +39,16 @@ namespace BHS.Logic
         {
             base.LoadContent();
 
+            Grid.Initialize(400, new Vector2(5000, 5000), 2);
+            Grid.LoadContent(this.content, @"Content\Graphics\bgCell");
             /* load stuff here */
             bh = new BlackHole();
             bh.Initialize(new Vector2(200, 200));
             bh.LoadContent(this.content);
-            
+
             astEmit = new Emitter();
             astEmit.Initialize(new Vector2(800, 600), ObjectType.Asteroid, 2f, 10f);
             astEmit.LoadContent(this.content);
-
-            //Grid.Initialize(400, new Vector2(2000, 2000), 2);
         }
 
         public override void UnloadContent()
@@ -90,17 +92,19 @@ namespace BHS.Logic
             /* game input */
             if (Director.Rat.LState == Rat.State.Down)
             {
-                Vector2 diff = Director.Rat.Position - bh.sprite.Position;
+                Vector2 diff = (Director.Rat.Position + Camera.Position) - bh.sprite.Position;
                 float power = 100f;
                 diff.Normalize();
                 diff *= power;
                 bh.sprite.physicsBody.LinearVelocity = diff;
+                Camera.Follow(bh.sprite);
             }
             else
             {
                 bh.sprite.physicsBody.LinearVelocity = new Vector2(0, 0);
             }
 
+           // Director.Game.Window.Title = Camera.Position.ToString();
         }
 
 
