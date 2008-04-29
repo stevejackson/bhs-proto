@@ -147,8 +147,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Graphics\border.jpg">
-      <Name>border</Name>
+    <Compile Include="Graphics\Objects\Shot1.PNG">
+      <Name>Shot1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
