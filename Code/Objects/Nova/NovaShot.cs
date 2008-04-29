@@ -16,15 +16,16 @@ using Microsoft.Xna.Framework.Storage;
 using F2D.Graphics;
 using F2D.Core;
 using F2D.Input;
+using BHS.Logic;
 
-namespace BHS.Logic
+namespace BHS.Objects.Nova
 {
-    public class SpaceObject
+    public class NovaShot
     {
         public Sprite sprite;
         public ContentManager content;
 
-        public SpaceObject()
+        public NovaShot()
         {
             sprite = new Sprite();
         }
@@ -36,12 +37,12 @@ namespace BHS.Logic
 
         virtual public void LoadContent(ContentManager content)
         {
-            string fn = @"Content\Graphics\Objects\Asteroid";
-            sprite.LoadContent(content, fn);
-            sprite.InitPhysics();
+            string fn = @"Content\Graphics\Objects\Shot1";
             sprite.Layer = 0.1f;
             sprite.Origin = new Vector2(sprite.Size.X / 2, sprite.Size.Y / 2);
             this.content = content;
+            sprite.LoadContent(content, fn);
+            sprite.InitPhysics();
         }
 
         virtual public void Update(BlackHole bh)
@@ -67,8 +68,8 @@ namespace BHS.Logic
                  *     2 - fast as it gets closer
                  *     3 - insanely fast as it gets closer.. 
                  */
-                float multiplier = 1.0f;
-                float power = 100000f / ((float)Math.Pow(dist, 1.25f));
+                float multiplier = 1.5f; //modify this for easier scaling of power from 100k
+                float power = multiplier * 100000f / ((float)Math.Pow(dist, 1.25f));
 
                 //retain the direction, but give it proper power
                 diff.Normalize();

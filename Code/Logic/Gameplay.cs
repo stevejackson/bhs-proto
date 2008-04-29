@@ -16,6 +16,7 @@ using F2D.Core;
 using F2D.Input;
 using F2D.Graphics;
 using F2D.Math;
+using BHS.Objects.Nova;
 
 namespace BHS.Logic
 {
@@ -25,6 +26,7 @@ namespace BHS.Logic
 
         BlackHole bh;
         Emitter astEmit;
+        OmniNova omni;
         List<Sprite> borders = new List<Sprite>();
 
         #endregion
@@ -50,6 +52,10 @@ namespace BHS.Logic
             astEmit = new Emitter();
             astEmit.Initialize(new Vector2(800, 600), ObjectType.Asteroid, 2f, 10f);
             astEmit.LoadContent(this.content);
+
+            omni = new OmniNova();
+            omni.Initialize(new Vector2(200, 200), NovaShotType.Omni, 1.5f, 10f);
+            omni.LoadContent(this.content);
         }
 
         public override void UnloadContent()
@@ -58,6 +64,7 @@ namespace BHS.Logic
 
             bh.UnloadContent();
             astEmit.UnloadContent();
+            omni.UnloadContent();
 
             content.Unload();
         }
@@ -70,6 +77,7 @@ namespace BHS.Logic
             Camera.Follow(bh.sprite);
 
             astEmit.Update(bh);
+            omni.Update(bh);
 
             /* attract all objects towards bh */
 
