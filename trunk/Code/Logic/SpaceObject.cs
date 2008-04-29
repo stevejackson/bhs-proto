@@ -38,6 +38,7 @@ namespace BHS.Logic
         {
             string fn = @"Content\Graphics\Objects\Asteroid";
             sprite.LoadContent(content, fn);
+            sprite.InitPhysics();
             sprite.Layer = 0.1f;
             sprite.Origin = new Vector2(sprite.Size.X / 2, sprite.Size.Y / 2);
             this.content = content;
@@ -66,7 +67,7 @@ namespace BHS.Logic
                  *     2 - fast as it gets closer
                  *     3 - insanely fast as it gets closer.. 
                  */
-                float power = 100000f / ((float)Math.Pow(dist, 1.25f));
+                float power = 100f / ((float)Math.Pow(dist, 1.25f));
 
                 //retain the direction, but give it proper power
                 diff.Normalize();

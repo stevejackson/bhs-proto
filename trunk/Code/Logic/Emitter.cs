@@ -49,8 +49,10 @@ namespace BHS.Logic
         {
             this.content = content;
             this.sprite.LoadContent(this.content, @"Content\Graphics\Objects\Emitter");
-            this.sprite.physicsBody.IsStatic = true;
+            this.sprite.InitPhysics();
+            this.sprite.isStatic = true;
             this.sprite.physicsBody.Enabled = false;
+            
         }
 
         public void Update(BlackHole bh)
@@ -75,7 +77,9 @@ namespace BHS.Logic
                     Asteroid asteroid = new Asteroid();
                     asteroid.Initialize(this.sprite.Position);
                     asteroid.LoadContent(this.content);
+                    sprite.InitPhysics();
                     objects.Add(asteroid);
+                    asteroid.sprite.physicsBody.ApplyForce(new Vector2(50000, 50000));
                     break;
 
                 case ObjectType.Comet:

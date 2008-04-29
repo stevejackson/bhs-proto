@@ -45,6 +45,7 @@ namespace BHS.Logic
             bh = new BlackHole();
             bh.Initialize(new Vector2(200, 200));
             bh.LoadContent(this.content);
+            bh.sprite.InitPhysics();
 
             astEmit = new Emitter();
             astEmit.Initialize(new Vector2(800, 600), ObjectType.Asteroid, 2f, 10f);
@@ -88,6 +89,7 @@ namespace BHS.Logic
             {
                 OnCancel();
             }
+
 
             /* game input */
             if (Director.Rat.LState == Rat.State.Down)
