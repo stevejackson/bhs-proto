@@ -30,6 +30,7 @@ namespace BHS.Logic
         {
             string fn = @"Content\Graphics\Objects\Asteroid";
             sprite.LoadContent(content, fn);
+            sprite.InitPhysics();
             sprite.Layer = 0.1f;
             sprite.Origin = new Vector2(sprite.Size.X / 2, sprite.Size.Y / 2);
             this.content = content;
